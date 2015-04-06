@@ -73,31 +73,31 @@
     <div class="flexslider carousel">
       <ul class="slides">
             <li>
-                <img src="<?php print $front_page; ?>sites/all/themes/bootstrap_barrio/images/Desert.jpg" />
+                <img src="<?php print $front_page; ?>sites/all/themes/bootstrap_barrio/images/2.jpg" />
             </li>
             <li>
-                <img src="<?php print $front_page; ?>sites/all/themes/bootstrap_barrio/images/Lighthouse.jpg" />
+                <img src="<?php print $front_page; ?>sites/all/themes/bootstrap_barrio/images/4.jpg" />
             </li>
             <li>
-                <img src="<?php print $front_page; ?>sites/all/themes/bootstrap_barrio/images/Penguins.jpg" />
+                <img src="<?php print $front_page; ?>sites/all/themes/bootstrap_barrio/images/5.jpg" />
             </li>
             <li>
-                <img src="<?php print $front_page; ?>sites/all/themes/bootstrap_barrio/images/Desert.jpg" />
+                <img src="<?php print $front_page; ?>sites/all/themes/bootstrap_barrio/images/2.jpg" />
             </li>
             <li>
-                <img src="<?php print $front_page; ?>sites/all/themes/bootstrap_barrio/images/Lighthouse.jpg" />
+                <img src="<?php print $front_page; ?>sites/all/themes/bootstrap_barrio/images/4.jpg" />
             </li>
             <li>
-                <img src="<?php print $front_page; ?>sites/all/themes/bootstrap_barrio/images/Penguins.jpg" />
+                <img src="<?php print $front_page; ?>sites/all/themes/bootstrap_barrio/images/5.jpg" />
             </li>
             <li>
-                <img src="<?php print $front_page; ?>sites/all/themes/bootstrap_barrio/images/Desert.jpg" />
+                <img src="<?php print $front_page; ?>sites/all/themes/bootstrap_barrio/images/2.jpg" />
             </li>
             <li>
-                <img src="<?php print $front_page; ?>sites/all/themes/bootstrap_barrio/images/Lighthouse.jpg" />
+                <img src="<?php print $front_page; ?>sites/all/themes/bootstrap_barrio/images/4.jpg" />
             </li>
             <li>
-                <img src="<?php print $front_page; ?>sites/all/themes/bootstrap_barrio/images/Penguins.jpg" />
+                <img src="<?php print $front_page; ?>sites/all/themes/bootstrap_barrio/images/5.jpg" />
             </li>
       </ul>
     </div>

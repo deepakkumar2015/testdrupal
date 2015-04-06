@@ -20,19 +20,19 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
   <?php print $scripts; ?>
-    <link rel="stylesheet" href="<?php print path_to_theme(); ?>/libraries/flexslider/flexslider.css" type="text/css" media="screen" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-    <script src="<?php print path_to_theme(); ?>/libraries/flexslider/jquery.flexslider-min.js"></script>
+    <link rel="stylesheet" href="<?php print base_path(); ?>sites/all/themes/bootstrap_barrio/libraries/flexslider/flexslider.css" type="text/css" media="screen" />
+    <script src="<?php print base_path(); ?>sites/all/themes/bootstrap_barrio/libraries/flexslider/jquery.flexslider-min.js"></script>
     <script type="text/javascript">
-    $(window).load(function(){
-      $('.flexslider').flexslider({
+    jQuery(window).load(function(){
+      jQuery('.flexslider').flexslider({
         animation: "slide",
-        animationLoop: false,
-        itemWidth: 450,
+        animationLoop: true,
+        itemWidth: 1450,
+        //itemHeight: 500,
         itemMargin: 5,
         pausePlay: true,
         start: function(slider){
-            $('body').removeClass('loading');
+            jQuery('body').removeClass('loading');
         }
       });
     });
