@@ -1,0 +1,11 @@
+.front .main-container {
+    padding: 0 !important;
+}
+.navbar-default {
+    background-color: #ccc;
+    border-color: #ccc;
+}
+.top-head {
+    background: none repeat scroll 0 0 #ccc;
+    margin: 5px;
+}
