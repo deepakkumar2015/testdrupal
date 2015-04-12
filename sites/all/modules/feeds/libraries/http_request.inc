@@ -183,6 +183,7 @@ function http_request_get($url, $username = NULL, $password = NULL, $accept_inva
       }
       $header = '';
       $data = curl_exec($download);
+
       if (curl_error($download)) {
         throw new HRCurlException(
           t('cURL error (@code) @error for @url', array(

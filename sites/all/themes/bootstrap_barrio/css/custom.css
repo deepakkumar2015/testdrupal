@@ -9,3 +9,15 @@
     background: none repeat scroll 0 0 #ccc;
     margin: 5px;
 }
+.navbar {
+    margin: 0 !important;
+}
+.region.region-navigation {
+    float: right;
+    width: 25%;
+}
+.navbar .btn {
+    height: 32px !important;
+    line-height: 37px !important;
+    padding: 0 13px !important;
+}

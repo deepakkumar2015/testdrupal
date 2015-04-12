@@ -13,6 +13,7 @@
   </div>
 </header>
 <?php endif; ?>
+<div class="top-head">
 <header id="navbar" class="<?php print $navbar_classes; ?>" role="banner">
   <div class="navbar-inner">
      <div id="main-navs">
@@ -67,11 +68,9 @@
     </div></div>
   </div>
 </header>
-
-
+</div>
 
 <div class="main-container container">
-
   <header role="banner" id="page-header">
     <?php if (!empty($site_slogan)): ?>
       <p class="lead"><?php print $site_slogan; ?></p>
@@ -79,7 +78,6 @@
   </header> <!-- /#header -->
 
   <div class="row">
-
     <?php if (!empty($page['preface'])): ?>
       <div id="preface">
         <?php print render($page['preface']); ?>
@@ -170,4 +168,4 @@
     <div id="footer-inner" class="container">
     <?php print render($page['footer']); ?>
     </div>
-  </footer>
+</footer>
